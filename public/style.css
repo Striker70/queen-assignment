@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1b2021;
+  color: white;
+  display: flex;
+  padding: 20px;
+}
+
+h1 {
+  width: 75%;
+}
+
+h3 {
+  font-size: 200%;
+}
+
+.score {
+  width: 25%;
+}
+
+p {
+  margin: 0;
+  color: #ccc;
+  font-size: 70%;
+}
+
+.body {
+  padding: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: #ebebeb;
+  margin-top: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.correct {
+  background-color: #21ba45;
+  padding: 20px;
+  font-weight: 900;
+  color: whitesmoke;
+}
+
+.incorrect {
+  background-color: #db541a;
+  padding: 20px;
+  font-weight: 900;
+  color: whitesmoke;
+}
+
+.anime {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  text-align: center;
+}
